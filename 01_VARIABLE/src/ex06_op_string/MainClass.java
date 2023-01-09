@@ -34,18 +34,18 @@ public class MainClass {
 	
 	public static void ex03() {
 		
-		String str1 = "hello";
-				
-				System.out.println(str1 == "hello");
+		// 문자열의 비교는 == 또는 !=으로 하지 않는다.
+		
+		String str1 = "hello";	
+			System.out.println(str1 == "hello");
 		
 		String str2 = new String("hello");
-			System.out.println(str2 == "hello");
+			System.out.println(str2 ==
+					"hello");
 	}
 	
-	
-	
 	public static void main(String[] args) {
-		ex03();
+		ex01();
 		
 
 	}

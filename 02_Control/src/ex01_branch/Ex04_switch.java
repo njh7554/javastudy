@@ -83,7 +83,7 @@ public class Ex04_switch {
 	
 	public static void ex04() {
 		
-		int month = 4;
+		int month = 1;
 		
 		System.out.println((month - 1) / 3 + 1 + "분기");
 		
