@@ -22,6 +22,9 @@ public class Ex02_reference {
 		b = a;
 		
 		System.out.println(b[0]);
+		
+	b[0] = 100;
+		System.out.println(a[0]);
 	}
 	
 	public static void ex03() { //심화
@@ -38,6 +41,8 @@ public class Ex02_reference {
 		for(int i = 0; i < a.length; i++) {
 			b[i] = a[i];
 			
+			
+		
 			/*
             |-------|
           a | 0x123 |─────┐
@@ -70,7 +75,7 @@ public class Ex02_reference {
 			
 	}
 	public static void main(String[] args) {
-		ex03();
+		ex02();
 		
 		 
 		

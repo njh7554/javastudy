@@ -17,8 +17,8 @@ public class Ex01_array {
 	 	1. 배열의 선언
 	 		1) int[] arr; //권장
 	 		2) int arr[];
-	 	2. 배열의 생성
-	 		arr = new int[5];
+	 	2. 배열의 생성 ****
+	 	**	arr = new int[5]; **
 	 */
 	
 	/*
@@ -33,7 +33,7 @@ public class Ex01_array {
 	
 	public static void ex01() {
 		// 배열의 선언
-		int[] arr;
+		int[] arr; // arr(reference, address) -> 참조값 저장 
 		// 배열의 생성
 		arr = new int[5];
 		
@@ -78,7 +78,7 @@ public class Ex01_array {
 		// 배열 선언 + 생성
 		int[] arr = new int[5];
 		//배열순회
-		for(int i = 0; i < arr.length; i++) {
+		for(int i = 0; i < arr.length; i++) { //******* 배열의 길이는 무조건 length
 			System.out.println(arr[i]);
 		}
 	}
@@ -180,7 +180,7 @@ public class Ex01_array {
 		
 	}
 	public static void main(String[] args) {
-		ex09();
+		ex02();
 
 	}
 
