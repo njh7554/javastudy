@@ -8,9 +8,9 @@ public class User {
 	 	2. 일반 변수와 달리 자동으로 초기화된다.
 	 */
 
-	String id;				// null
-	String pw;				// null
-	int point;				// 0
-	boolean isVip;			// false
-	Address addr;			// null
+	String id;			// null
+	String pw;			// null
+	int point;			// 0
+	boolean isVip;		// false
+	Address addr;		// null
 }

@@ -6,4 +6,3 @@ public class Address {
 	String roadAddress;
 	String jibunAddress;	
 }
-
