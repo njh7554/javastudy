@@ -1,6 +1,6 @@
 package ex03_method;
 
-public class MainClass {
+public class MainClass { // ***계산기, 자동차 공부
 	public static void ex01() {
 		
 	// Calculator 객채 선언 + 생성
@@ -17,18 +17,38 @@ public class MainClass {
 		
 		CoffeeMachine coffeeMachine = new CoffeeMachine();
 		
-		CoffeeAndChange coffeeAndChange = coffeeMachine.buyCoffee(1000, 1); 
-		System.out.println(coffeeAndChange.coffee);
-		System.out.println(coffeeAndChange.change);
+		CoffeeAndChange coffeeAndChange = coffeeMachine.buyCoffee(500, 1); 
+			System.out.println(coffeeAndChange.coffee);
+			System.out.println(coffeeAndChange.change);
 		
-		System.out.println(coffeeMachine.moneyPot);
+			System.out.println(coffeeMachine.moneyPot);
+			
+
 			
 		}
+	public static void ex03() {
 		
+		Car car = new Car();
+		
+		car.addOil(100);
+		
+		for(int n = 0; n < 51; n++) {
+			car.pushAccel();
+			
+		}
+		System.out.println(car.oilPot);
+		System.out.println(car.carSpeed);
+		
+		for(int n = 0; n <11; n++) {
+			car.pushBreak();
+		}
+		System.out.println(car.oilPot);
+		System.out.println(car.carSpeed);
+	}
 		
 	
 	public static void main(String[] args) {
-		ex02();
+		ex03();
 		
 		
 		}
