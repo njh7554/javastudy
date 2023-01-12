@@ -106,11 +106,11 @@ public class MainClass {
 	
 	public static void ex06() {
 		
-		int n = 3;
+		int n = 6;
 		
 		String result = (n % 2 == 0) ? "짝수" : "홀수"; // 짝수, 홀수
 			
-				System.out.println(result);
+				System.out.println(result + " 입니다.");
 	   
 	}
 	
@@ -142,7 +142,7 @@ public class MainClass {
 	
 	public static void main(String[] args) {
 		
-		ex08(); // 호출
+		ex06(); // 호출
 		
 		
 		

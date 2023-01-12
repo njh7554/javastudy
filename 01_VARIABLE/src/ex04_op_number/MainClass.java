@@ -137,7 +137,7 @@ public class MainClass {
 	
 	public static void main(String[] args) {
 		
-		ex08(); // ex08 메소드 호출
+		ex03(); // ex08 메소드 호출
 		
 		
 		

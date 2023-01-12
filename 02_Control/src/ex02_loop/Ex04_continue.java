@@ -15,6 +15,7 @@ public class Ex04_continue {
 			
 			if(a % 4 == 0) {
 				continue;
+				
 			}
 				
 			System.out.println(a);

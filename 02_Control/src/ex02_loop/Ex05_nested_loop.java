@@ -35,7 +35,7 @@ public class Ex05_nested_loop {
 	
 		
 		for(int dan = 2; dan < 10; dan++){
-			for(int n = 1; n <= 9; n++) {
+			for(int n = 1; n < 10; n++) {
 			System.out.println(dan + " x " + n + " = " + (dan * n));
 
 			}		
@@ -47,7 +47,7 @@ public class Ex05_nested_loop {
 	
 	public static void ex04() { 
 		for(int n = 1; n <= 9; n++) {
-			for(int dan = 2; dan <= 9; dan++) {
+			for(int dan = 2; dan <= 9; dan++){
 				System.out.print(dan + "x" + n + "=" + (dan * n) + "\t");
 			}
 			System.out.println();

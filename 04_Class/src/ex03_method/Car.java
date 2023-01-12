@@ -18,7 +18,6 @@ public class Car {
 	
 	// 달리기 메소드
 	void pushAccel() {
-		
 		if(oilPot == 0) {
 			return;
 		}
