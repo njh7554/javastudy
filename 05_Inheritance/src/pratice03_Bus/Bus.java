@@ -8,6 +8,8 @@ public class Bus {
 	
 	// 생성자
 	public Bus(int passengerLimit) {  // new Bus(25)인 경우 25인승 버스를 의미함
+	
+			
 		
 	}
 	
