@@ -10,7 +10,7 @@ public class Ex03_java_sql_Date {
 		
 		Date now = new Date(System.currentTimeMillis());
 		System.out.println(now);
-			
+		
 		
 	}
 

@@ -33,13 +33,6 @@ public class MainClass {
 				System.out.println("주소 : " + user1.addr.postcode + " " + user1.addr.roadAddress + "(" + user1.addr.jibunAddress + ")");
 		
 		
-	
-	
-
-
-	
-
-
 
 		//개별연습 
 		// 다음 값을 가지는 객체 user2를 생성해보세요

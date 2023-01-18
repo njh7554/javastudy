@@ -7,12 +7,12 @@ public class MainClass {
 		int a = 3;
 		int b = 4;
 		
-		boolean result1 = a > b;
-		boolean result2 = a >= b;
-		boolean result3 = a < b;
-		boolean result4 = a <= b;
-		boolean result5 = a == b;
-		boolean result6 = a != b;
+		boolean result1 = a > b; //f
+		boolean result2 = a >= b;//f
+		boolean result3 = a < b;//t
+		boolean result4 = a <= b;//t
+		boolean result5 = a == b;//f
+		boolean result6 = a != b;//t
 		
 			System.out.println(result1);
 			System.out.println(result2);
@@ -29,19 +29,19 @@ public class MainClass {
 		// 논리 연산
 		// 1. 논리 AND : &&, 모든 조건이 true이면 true 아니면 false
 		// 2. 논리 OR  : ||, 하나의 조건이라도 true이면 true, 아니면 false
-		// 3. 논리 NOT : !, 조건이 true이면 false 조건이 false이면 true
+		// 3. 논리 NOT : !, 조건이 true이면 false, 조건이 false이면 true
 		
 		int a = 10;
 		int b = 10;
 		
-		boolean result1 = (a == 10) && (b == 10);
-		boolean result2 = (a == 10) && (b == 20);
+		boolean result1 = (a == 10) && (b == 10); 
+		boolean result2 = (a == 10) && (b == 20); 
 		
 			System.out.println(result1);
 			System.out.println(result2);
 		
-		boolean result3 = (a == 10) || (b == 10);
-		boolean result4 = (a == 10) || (b == 20);
+		boolean result3 = (a == 10) || (b == 10); 
+		boolean result4 = (a == 10) || (b == 20); 
 		
 			System.out.println(result3);
 			System.out.println(result4);
@@ -142,7 +142,7 @@ public class MainClass {
 	
 	public static void main(String[] args) {
 		
-		ex06(); // 호출
+		ex08(); // 호출
 		
 		
 		

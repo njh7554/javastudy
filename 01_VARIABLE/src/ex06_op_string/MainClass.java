@@ -25,7 +25,7 @@ public class MainClass {
 		String str1 = a + "";
 		
 			System.out.println(str1);
-		//a와 str1은 같지 않다.
+		// a와 str1은 같지 않다.
 		// 원래는 이런 게 있습니다.
 		// String str1 = String.valueOf(a);
 		// 하지만 개발자들은 잘 안 쓰죠.
@@ -40,12 +40,11 @@ public class MainClass {
 			System.out.println(str1 == "hello");
 		
 		String str2 = new String("hello");
-			System.out.println(str2 ==
-					"hello");
+			System.out.println(str2 == "hello");
 	}
 	
 	public static void main(String[] args) {
-		ex01();
+		ex03();
 		
 
 	}
