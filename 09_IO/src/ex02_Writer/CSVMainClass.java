@@ -25,12 +25,12 @@ public class CSVMainClass {
 		 */
 		/*
 		 	목표.
-		 	1. 경로 
-		 		C:\storage\product.csv
-		 	2. 내용
-		 		세탁기,삼성,100
-		 		냉장고,LG,200
-		 		TV,삼성,300
+			 	1. 경로 
+			 		C:\storage\product.csv
+			 	2. 내용
+			 		세탁기,삼성,100
+			 		냉장고,LG,200
+			 		TV,삼성,300
 		 */
 		
 		Map<String, Object> product1 = new HashMap<>();
