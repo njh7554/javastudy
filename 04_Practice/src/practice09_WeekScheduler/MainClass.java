@@ -2,14 +2,14 @@ package practice09_WeekScheduler;
 
 import java.util.Scanner;
 
-public class WeekScheduler {
+public class MainClass {
 
 	private int nthWeek;  // 1 ~ n주차
 	private Day[] week;
 	private String[] dayNames = {"일", "월", "화", "수", "목", "금", "토"};
 	private Scanner sc;
 	
-	public WeekScheduler(int nthWeek) {
+	public MainClass(int nthWeek) {
 		this.nthWeek = nthWeek;
 		week = new Day[7];
 		sc = new Scanner(System.in);

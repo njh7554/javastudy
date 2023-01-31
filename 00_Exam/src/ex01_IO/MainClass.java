@@ -21,12 +21,14 @@ public class MainClass {
 			String sentence = sc.nextLine();
 			
 			dis.writeUTF(sentence);
+			
 		}catch (IOException e) {
 			e.printStackTrace();
 		}finally {
 			try {
 				if(dis != null) {
 					dis.close();
+					sc.close();
 				}
 			}catch(IOException e) {
 				e.printStackTrace();
