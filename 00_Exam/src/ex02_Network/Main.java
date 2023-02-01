@@ -6,7 +6,6 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -68,32 +67,30 @@ public class Main {
 		File file = new File("C:" + File.separator + "storage", "sfc_web_map.xml");
 		
 		try {
-			
-			url = new URL(apiURL);
-			con = (HttpURLConnection)url.openConnection();
-			
 			int responseCode = con.getResponseCode();
 			if(responseCode == HttpURLConnection.HTTP_OK) {
 				reader = new BufferedReader(new InputStreamReader(con.getInputStream()));
-				}else {
+			}else {
 				reader = new BufferedReader(new InputStreamReader(con.getErrorStream()));
 			}
-		
-			StringBuilder sb =new StringBuilder();
+			
+			StringBuilder sb = new StringBuilder();
 			char[] cbuf = new char[2];
 			int readCount = 0;
 			
-			while((readCount = reader.read(cbuf)) != -1){
+			while((readCount = reader.read(cbuf)) != -1) {
 				sb.append(cbuf, 0, readCount);
 			}
+			
 			writer = new BufferedWriter(new FileWriter(file));
 			writer.write(sb.toString());
+			
 			
 			reader.close();
 			writer.close();
 			con.disconnect();
-					
-			System.out.println("다운완료");
+		
+			System.out.println("다운 완료");
 		}catch(MalformedURLException e) {
 			System.out.println("오류");
 		}catch(IOException e) {
